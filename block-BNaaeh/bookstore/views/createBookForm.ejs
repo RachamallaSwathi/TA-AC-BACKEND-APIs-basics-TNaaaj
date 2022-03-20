@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <title>BookStore</title>
+  </head>
+  <body>
+    <header>
+      <div class="container header">
+        <div>
+          <a href="/">BookStore</a>
+        </div>
+        <div>
+          <a href="/books/new" class="create">Create Book</a>
+        </div>
+      </div>
+    </header>
+
+
+    <main class="container">
+      <div class="main">
+        <h1>Enter the Details below</h1>
+      </div>
+      <div class="form main">
+          <form action="/books" method="POST">
+              <input type="text" name="title" id="" placeholder="Enter your title">
+             <textarea name="summary" id="" cols="30" rows="5" placeholder="Enter the Summary"></textarea>
+             <input type="number" name="pages" id="" placeholder="Enter the number of pages">
+             <input type="text" name="publication" id="" placeholder="Enter the publication">
+             <input type="text" name="cover_image" id="" placeholder="Enter the image url">
+             <input type="text" name="categoryName" id="" placeholder="Enter the category of book">
+             <input type="text" name="authorName" id="" placeholder="Enter the author name">
+             <input type="text" name="email" id="" placeholder="Enter the email name">
+             <input type="text" name="country" id="" placeholder="Enter the country name">
+             <input type="submit" name="" id="" value="Add Book">
+          </form>
+      </div>
+     
+    </main>
+  </body>
+</html>
